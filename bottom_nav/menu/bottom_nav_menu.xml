@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/home"
+    android:title="Home"
+    android:icon="@drawable/ic_baseline_home"
+    app:cnb_backgroundColor="@color/darkblue"
+    />
+
+    <item
+        android:id="@+id/explore"
+        android:title="Explore"
+        android:icon="@drawable/ic_baseline_explore_24"
+        app:cnb_backgroundColor="@color/darkblue"
+        />
+
+    <item
+        android:id="@+id/hp"
+        android:title="help other"
+        android:icon="@drawable/bottom_nav_dashboard_icon"
+        app:cnb_backgroundColor="@color/darkblue"
+        />
+    <item
+        android:id="@+id/profile"
+        android:title="My Profile"
+        android:icon="@drawable/ic_person"
+        app:cnb_backgroundColor="@color/darkblue"
+        />
+</menu>
